@@ -16,6 +16,9 @@ This is a simple Todo app built using React, leveraging the Context API for stat
 - **Tailwind CSS**: A utility-first CSS framework for building custom designs quickly.
 - **Local Storage**: Browser local storage is used to persist todo data between sessions.
 
+## Screenshots
+![image](https://github.com/vishal8113/Todo-React/assets/92880117/385102ce-d0cc-4269-846b-15bd3c63551a)
+
 ## Installation
 
 1. Clone the repository:
