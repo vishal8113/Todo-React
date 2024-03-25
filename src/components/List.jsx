@@ -10,10 +10,6 @@ const List = ({ todo }) => {
     setIsEditable(false);
   };
 
-  const checkChange = () => {
-    changeChecked(todo.id);
-  };
-
   return (
     <div
       className={`flex border border-black/10 rounded-lg px-3 py-1.5 gap x-3 shadow-sm shadow-white/50 duration-300 text-black mb-3 ${
@@ -24,7 +20,9 @@ const List = ({ todo }) => {
         type="checkbox"
         className="cursor-pointer"
         checked={todo.checked}
-        onChange={checkChange}
+        onChange={() => {
+          changeChecked(todo.id);
+        }}
       />
       <input
         type="text"

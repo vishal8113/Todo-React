@@ -32,6 +32,7 @@ function App() {
   };
 
   useEffect(() => {
+    document.title = "Todo App";
     const todos = JSON.parse(localStorage.getItem("todos"));
 
     if (todos && todos.length > 0) {
